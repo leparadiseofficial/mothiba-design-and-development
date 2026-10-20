@@ -1,5 +1,5 @@
 // MOTHIBA DESIGN AND DEVELOPMENT SERVICES
-// Replace the WhatsApp number below with the business's confirmed number.
+// Business WhatsApp contact number.
 // Use country code without +, spaces, or punctuation. Example South Africa: 277XXXXXXXX.
 const WHATSAPP_NUMBER = "27751090579";
 
@@ -48,7 +48,7 @@ if (form) {
     const enquiry = [
       "Hello MOTHIBA DESIGN AND DEVELOPMENT SERVICES,",
       "",
-      "I would like to enquire about a project.",
+      "I would like to enquire about a house or property project.",
       "Name: " + name,
       "Email: " + email,
       "Service: " + service,
