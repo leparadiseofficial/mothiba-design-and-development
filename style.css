@@ -59,3 +59,42 @@
 .gallery-classic .gallery-art{background-image:linear-gradient(0deg,rgba(5,7,8,.42),rgba(5,7,8,.02)),url("https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1000&q=85")}
 .gallery-art .sun,.gallery-art .house,.gallery-art .plant,.gallery-art .ground{display:none}
 @media(max-width:760px){.hero-art{background-position:center;min-height:330px}.hero-art .art-frame{width:70%;opacity:.92}.hero-art .art-note{z-index:2}}
+
+
+/* Creative design services: logo, wall styling, branding and promotional artwork */
+.creative{padding-top:100px;padding-bottom:110px}
+.creative-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:34px}
+.creative-card{min-width:0;overflow:hidden;background:linear-gradient(145deg,#141518,#0d0e10);border:1px solid var(--line);border-radius:4px;transition:transform .25s ease,border-color .25s ease}
+.creative-card:hover{transform:translateY(-4px);border-color:rgba(217,182,107,.55)}
+.creative-preview{height:220px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#17181b;border-bottom:1px solid var(--line)}
+.creative-preview:before{content:"";position:absolute;inset:12px;border:1px solid rgba(217,182,107,.2);pointer-events:none}
+.logo-preview{flex-direction:column;background:radial-gradient(ellipse at center,#34302a 0,#171719 56%,#0c0d0f 100%)}
+.logo-emblem{width:76px;height:76px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold-light);font-family:var(--serif);font-size:43px;position:relative;margin-bottom:14px}
+.logo-emblem span{position:absolute;font-family:Arial;font-size:12px;right:-7px;top:-7px;background:#171719;padding:3px}
+.logo-preview>strong{letter-spacing:.28em;font-size:12px}.logo-preview>small{color:var(--gold);font-size:8px;letter-spacing:.2em;margin-top:7px}
+.wall-preview{background:linear-gradient(135deg,#d8d1c5,#a69d90 50%,#55514c)}
+.wall-scene{position:absolute;inset:28px 35px 25px;background:#c9c0b2;box-shadow:0 15px 22px #0004;overflow:hidden}
+.wall-scene:before{content:"";position:absolute;inset:0 0 25px;background:linear-gradient(90deg,#b7ab9a 0 8%,#e3dbce 8% 65%,#c7bcae 65%);border-bottom:5px solid #9a8c79}
+.wall-art{position:absolute;z-index:1;width:76px;height:92px;left:45%;top:16px;transform:translateX(-50%);border:7px solid #292827;background:linear-gradient(135deg,#d7b76f,#3e4a47 52%,#1c2021);box-shadow:0 8px 12px #0003}
+.wall-console{position:absolute;z-index:2;left:12%;right:10%;bottom:25px;height:28px;background:linear-gradient(#6a5140,#332820);box-shadow:0 8px 10px #0003}
+.wall-plant{position:absolute;z-index:3;right:14%;bottom:50px;width:24px;height:48px;border-radius:70% 10%;background:#56664b;transform:rotate(-17deg)}
+.preview-tag{position:absolute;bottom:8px;right:12px;color:#fff;font-size:8px;letter-spacing:.14em;text-shadow:0 1px 4px #000}
+.brand-preview{background:linear-gradient(130deg,#29251f,#121315 60%,#292c2e)}
+.brand-board{width:155px;height:130px;background:#e9e4d9;transform:rotate(-5deg);box-shadow:0 15px 28px #0008;position:relative;padding:20px;color:#292721}
+.brand-board-mark{font-family:var(--serif);font-size:44px;color:#8f6c31}.brand-board-lines{position:absolute;left:22px;bottom:25px;width:70px;height:3px;background:#8f6c31;box-shadow:0 8px #bbb3a4,0 16px #bbb3a4}
+.brand-board-chip{position:absolute;right:18px;bottom:18px;width:26px;height:26px;border-radius:50%;background:#252626;box-shadow:-32px 0 #b99a5b}
+.signage-preview{background:radial-gradient(ellipse at 50% 35%,#33363a,#101113 70%)}
+.sign-panel{padding:28px 23px;border:1px solid #d9b66b;background:linear-gradient(135deg,#111214,#242323);box-shadow:0 12px 25px #0009;text-align:center;color:#e6ca85;letter-spacing:.22em}
+.sign-panel span{display:block;font-family:var(--serif);font-size:22px}.sign-panel small{display:block;font-size:7px;letter-spacing:.16em;margin-top:8px;color:#c8cdd3}
+.exterior-preview{background:linear-gradient(#c4c7c3 0 55%,#6d746a 55% 100%)}
+.mini-building{position:relative;width:180px;height:108px;background:#d8d4cb;border-bottom:9px solid #81796d;box-shadow:0 16px 20px #0003}
+.mini-building:before{content:"";position:absolute;left:-12px;right:-12px;top:-30px;height:36px;background:#393c3e;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.mini-building span{position:absolute;left:17px;top:20px;width:44px;height:52px;background:#35464a;border:5px solid #b5a990}
+.mini-building i{position:absolute;right:20px;top:25px;width:36px;height:30px;background:#35464a;border:4px solid #b5a990}
+.mini-building b{position:absolute;right:20px;bottom:0;width:32px;height:52px;background:#75634f}
+.print-preview{background:linear-gradient(135deg,#d8d1c5,#8e867b)}
+.print-sheet{width:150px;height:145px;background:#f5f0e5;color:#262626;display:flex;flex-direction:column;justify-content:center;padding:18px;box-shadow:0 12px 22px #0004;transform:rotate(4deg);border-left:5px solid var(--gold)}
+.print-sheet strong{font-family:var(--serif);font-size:20px}.print-sheet>span{font-size:17px;color:#92713b}.print-sheet small{font-size:7px;line-height:1.6;margin-top:18px;letter-spacing:.08em}
+.creative-copy{padding:22px 21px 24px}.creative-number{font-size:9px;letter-spacing:.15em;color:var(--gold)}.creative-copy h3{font-family:var(--serif);font-weight:500;font-size:22px;margin:12px 0 9px}.creative-copy p{font-size:13px;line-height:1.8;color:var(--muted);min-height:70px}.creative-copy .card-link{display:inline-flex;margin-top:7px}
+@media(max-width:900px){.creative-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.creative{padding-top:65px;padding-bottom:70px}.creative-grid{grid-template-columns:1fr;gap:14px}.creative-preview{height:205px}.creative-copy p{min-height:0}.creative-copy{padding:19px}}
