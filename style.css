@@ -41,3 +41,21 @@
 @media(max-width:1000px){.plan-info{padding:15px 12px}.plan-meta{font-size:8px;padding:10px 12px}}
 @media(max-width:760px){.plan-grid,.gallery-grid{grid-template-columns:1fr;gap:13px}.plan-visual svg{max-width:370px}.plan-info{padding:17px}.plan-meta{font-size:9px}.gallery-art{height:230px}}
 @media(max-width:360px){.gallery-caption strong{font-size:14px}}
+
+
+
+/* Updated photography: architectural and residential image references */
+.hero-art{
+  background-image:linear-gradient(90deg,rgba(8,9,11,.12),rgba(8,9,11,.42)),url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85");
+  background-size:cover;background-position:center;border:1px solid rgba(217,182,107,.28)
+}
+.hero-art::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,9,11,.18),rgba(8,9,11,.08) 45%,rgba(8,9,11,.4));pointer-events:none}
+.hero-art .art-frame{z-index:1;background:rgba(8,9,11,.64);backdrop-filter:blur(2px)}
+.hero-art .art-orbit{z-index:0}
+.hero-art .art-note,.hero-art .art-frame{position:relative}
+.gallery-art{background-size:cover!important;background-position:center!important}
+.gallery-modern .gallery-art{background-image:linear-gradient(0deg,rgba(5,7,8,.4),rgba(5,7,8,.02)),url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=85")}
+.gallery-family .gallery-art{background-image:linear-gradient(0deg,rgba(5,7,8,.42),rgba(5,7,8,.02)),url("https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85")}
+.gallery-classic .gallery-art{background-image:linear-gradient(0deg,rgba(5,7,8,.42),rgba(5,7,8,.02)),url("https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1000&q=85")}
+.gallery-art .sun,.gallery-art .house,.gallery-art .plant,.gallery-art .ground{display:none}
+@media(max-width:760px){.hero-art{background-position:center;min-height:330px}.hero-art .art-frame{width:70%;opacity:.92}.hero-art .art-note{z-index:2}}
