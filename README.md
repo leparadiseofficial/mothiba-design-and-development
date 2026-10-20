@@ -24,8 +24,8 @@ Open `index.html` in a modern browser. The Google Fonts connection requires inte
 
 ## Before publishing
 
-- In `script.js`, replace `WHATSAPP_NUMBER` with the confirmed business WhatsApp number in international digits only (for example, `277XXXXXXXX`). Leave it blank if it is not yet known.
-- In `index.html`, replace `hello@mothibadesign.co.za` with the confirmed business email address. This is a placeholder, not a verified address.
+- Business WhatsApp: `0751090579` (configured in `script.js` as `27751090579` for WhatsApp links).
+- Business email: `mothibakagisho41@gmail.com` (configured in the contact link and form fallback).
 - Replace service descriptions or add real portfolio items only when you have accurate project details.
 - Test all links and the enquiry flow on a phone.
 
