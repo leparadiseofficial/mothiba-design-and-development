@@ -1,7 +1,7 @@
 // MOTHIBA DESIGN AND DEVELOPMENT SERVICES
 // Replace the WhatsApp number below with the business's confirmed number.
 // Use country code without +, spaces, or punctuation. Example South Africa: 277XXXXXXXX.
-const WHATSAPP_NUMBER = "";
+const WHATSAPP_NUMBER = "27751090579";
 
 const menuToggle = document.getElementById("menu-toggle");
 const nav = document.getElementById("nav");
@@ -60,11 +60,11 @@ if (form) {
       window.open(url, "_blank", "noopener,noreferrer");
       status.textContent = "WhatsApp should open with your enquiry ready to send.";
     } else {
-      const mailto = "mailto:hello@mothibadesign.co.za?subject=" +
+      const mailto = "mailto:mothibakagisho41@gmail.com?subject=" +
         encodeURIComponent("Project enquiry — " + service) +
         "&body=" + encodeURIComponent(enquiry);
       window.location.href = mailto;
-      status.textContent = "Your email app should open with the enquiry prepared. Update the email address in index.html if needed.";
+      status.textContent = "Your email app should open with the enquiry prepared. If your email app does not open, email mothibakagisho41@gmail.com directly.";
     }
   });
 }
