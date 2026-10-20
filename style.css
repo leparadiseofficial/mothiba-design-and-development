@@ -119,3 +119,15 @@
 .visual-copy p{min-height:70px;font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 16px}
 .visual-copy .card-link{display:flex}
 @media(max-width:760px){.visuals{padding-top:65px;padding-bottom:70px}.visuals-grid{grid-template-columns:1fr;gap:14px}.visual-image{height:230px}.visual-copy p{min-height:0}}
+
+
+/* Photorealistic creative studio image panels */
+.creative-preview{background-size:cover!important;background-position:center!important}
+.logo-preview{background-image:linear-gradient(0deg,rgba(5,6,8,.22),rgba(5,6,8,.05)),url("https://images.unsplash.com/photo-1634942536790-2533db7a4e9e?auto=format&fit=crop&w=1000&q=85")!important}
+.wall-preview{background-image:linear-gradient(0deg,rgba(5,6,8,.15),rgba(5,6,8,.02)),url("https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85")!important}
+.brand-preview{background-image:linear-gradient(0deg,rgba(5,6,8,.15),rgba(5,6,8,.02)),url("https://images.unsplash.com/photo-1634942536790-2533db7a4e9e?auto=format&fit=crop&w=1000&q=85")!important}
+.signage-preview{background-image:linear-gradient(0deg,rgba(5,6,8,.12),rgba(5,6,8,.02)),url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85")!important}
+.exterior-preview{background-image:linear-gradient(0deg,rgba(5,6,8,.15),rgba(5,6,8,.02)),url("https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1000&q=85")!important}
+.print-preview{background-image:linear-gradient(0deg,rgba(5,6,8,.15),rgba(5,6,8,.02)),url("https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1000&q=85")!important}
+.logo-preview .logo-emblem,.logo-preview>strong,.logo-preview>small,.wall-scene,.brand-board,.sign-panel,.mini-building,.print-sheet{display:none!important}
+.creative-preview:before{border-color:rgba(217,182,107,.35)}
